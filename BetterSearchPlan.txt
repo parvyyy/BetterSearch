@@ -1,0 +1,15 @@
+Date: 09/01/2023
+
+The Rough Plan:
+    - Have data stored in several .txt files
+    - The program should read the files and create an object to store the information
+        - Try to have it broken up into sections (i.e. each object only contains 20 lines)
+    
+    - The user should be then prompted to request a word or phrase.
+    - The program will search for the phrase, its individual words AND related / similar words and display the obj's containing them
+        - It should be ordered based on 'relevancy'. 
+    - If a word like "space is" is searched, the "is" should not be considered when the program finds similar words / individual words
+
+    - Asks continuously until the user presses Cntrl. C.
+
+    - Can later expand this to maybe be searchable by dates, or similar categories. 
